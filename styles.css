@@ -1,0 +1,64 @@
+body {
+    background-color: black; /* Set a solid black background */
+    color: #00ff00; /* Green text color for hacker theme */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for a techy look */
+    margin: 0;
+    padding: 20px;
+}
+
+#username-form {
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#chat {
+    display: flex;
+    flex-direction: column;
+}
+
+#messages {
+    list-style-type: none;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: scroll; /* Allow scrolling */
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for messages */
+    border-radius: 5px;
+}
+
+#messages li {
+    margin: 5px 0;
+}
+
+#user-notifications {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1); /* Light transparent background for inputs */
+    color: #00ff00; /* Match text color */
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
